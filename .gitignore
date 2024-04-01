@@ -1,0 +1,8 @@
+/target/
+/.settings
+/.project
+/.classpath
+/.idea
+rebel.xml
+.DS_Store
+/ltc-challenges.*log*
