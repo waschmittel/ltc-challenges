@@ -3,11 +3,18 @@ package de.flubba.ltcchallenges.challengeprint;
 import com.github.anastaciocintra.escpos.EscPos;
 import com.github.anastaciocintra.escpos.EscPosConst;
 import com.github.anastaciocintra.escpos.Style;
+import com.github.anastaciocintra.escpos.image.BitImageWrapper;
+import com.github.anastaciocintra.escpos.image.Bitonal;
+import com.github.anastaciocintra.escpos.image.BitonalThreshold;
+import com.github.anastaciocintra.escpos.image.CoffeeImageImpl;
+import com.github.anastaciocintra.escpos.image.EscPosImage;
 import com.github.anastaciocintra.output.PrinterOutputStream;
 import lombok.extern.slf4j.Slf4j;
 
+import javax.imageio.ImageIO;
 import javax.print.PrintService;
 import java.io.IOException;
+import java.net.URISyntaxException;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.time.format.DateTimeFormatterBuilder;
@@ -19,18 +26,19 @@ import java.util.LinkedList;
 public class ActualChallengePrinter {
     private static final int LINE_WIDTH = 48;
 
-    public static void print(Difficulty difficulty, String task) {
+    public static void print(Difficulty difficulty, String task, int cursor) {
         try {
             var starPrinterName = Arrays.stream(PrinterOutputStream.getListPrintServicesNames())
                     .filter(name -> name.toLowerCase().contains("star"))
                     .findFirst()
                     .get();
-            System.out.println(starPrinterName);
+            log.info("printer found: {}", starPrinterName);
             //this call is slow, try to use it only once and reuse the PrintService variable.
             PrintService printService = PrinterOutputStream.getPrintServiceByName(starPrinterName);
             PrinterOutputStream printerOutputStream = new PrinterOutputStream(printService);
 
             try (EscPos escpos = new EscPos(printerOutputStream)) {
+                printLogo(escpos);
                 var header = new Style().setFontSize(Style.FontSize._3, Style.FontSize._3)
                         .setUnderline(Style.Underline.TwoDotThick)
                         .setJustification(EscPosConst.Justification.Center);
@@ -43,21 +51,27 @@ public class ActualChallengePrinter {
                 escpos.writeLF(difficultyStyle, difficulty.title);
                 escpos.feed(2);
                 printWrapped(escpos, task);
-                escpos.feed(1);
-                // TODO: "challenge mastered by: ---------------"
-                escpos.writeLF(metaInfo, "easy #%s - %s".formatted(42, LocalDateTime.now().format(FORMATTER)));
                 escpos.feed(2);
                 escpos.writeLF("_".repeat(LINE_WIDTH));
-                escpos.writeLF("challenge mastered by:");
+                escpos.writeLF("mastered by:");
                 escpos.feed(5);
                 escpos.writeLF("_".repeat(LINE_WIDTH));
+                escpos.writeLF(metaInfo, "%s #%s - %s".formatted(difficulty.title, cursor, LocalDateTime.now().format(FORMATTER)));
                 escpos.feed(3);
                 escpos.cut(EscPos.CutMode.FULL);
             }
-        } catch (IOException e) {
+        } catch (IOException | URISyntaxException e) {
             log.error("Could not print", e);
             throw new RuntimeException(e);
         }
+    }
+
+    private static void printLogo(EscPos escpos) throws URISyntaxException, IOException {
+        BitImageWrapper imageWrapper = new BitImageWrapper();
+        imageWrapper.setJustification(EscPosConst.Justification.Center);
+        Bitonal algorithm = new BitonalThreshold(127);
+        EscPosImage escposImage = new EscPosImage(new CoffeeImageImpl(ImageIO.read(ActualChallengePrinter.class.getClassLoader().getResource("ltc-logo.png").toURI().toURL())), algorithm);
+        escpos.write(imageWrapper, escposImage);
     }
 
     private static final DateTimeFormatter FORMATTER = new DateTimeFormatterBuilder().appendValue(

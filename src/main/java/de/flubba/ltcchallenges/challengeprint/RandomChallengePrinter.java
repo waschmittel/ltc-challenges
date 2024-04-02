@@ -19,13 +19,17 @@ public enum RandomChallengePrinter {
     public static void printChallenge(Difficulty difficulty) {
         log.info("Printing {} challenge", difficulty);
 
-        String currentTeen = ChallengeRandomizer.getLine("randomized_TEEN.txt", Cursor.getAndIncrementTeen());
-        String currentTask = ChallengeRandomizer.getLine("randomized_%s.txt".formatted(difficulty.name()), Cursor.getAndIncrement(difficulty));
+        var teenCursor = Cursor.getAndIncrementTeen();
+        String currentTeen = ChallengeRandomizer.getLine("randomized_TEEN.txt", teenCursor);
+        var difficultyCursor = Cursor.getAndIncrement(difficulty);
+        String currentTask = ChallengeRandomizer.getLine("randomized_%s.txt".formatted(difficulty.name()), difficultyCursor);
 
-        log.info("teen: {} | task: {}", currentTeen, currentTask);
+        log.info("teenCursor: {} | teen: {}", teenCursor, currentTeen);
+        log.info("diffficulty: {} | difficultyCursor: {}", difficulty, difficultyCursor);
+        log.info("task: {}", currentTask);
 
         var task = currentTask.replace("$TEEN", currentTeen);
 
-        ActualChallengePrinter.print(difficulty, task);
+        ActualChallengePrinter.print(difficulty, task, difficultyCursor);
     }
 }

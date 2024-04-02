@@ -1,83 +1,181 @@
+EASY: Share a surprising fact about your culture or hometown with $TEEN.
+EASY: Ask $TEEN about the last book they read.
+EASY: Ask $TEEN about the most interesting trip they've taken.
+EASY: Ask $TEEN for a book or movie recommendation.
+EASY: Ask $TEEN for a piece of advice on something trivial.
+EASY: Ask $TEEN what they would do with a million dollars.
+EASY: Compliment someone’s outfit and find out where they like to shop.
+EASY: Discuss with $TEEN what superpower they’d like to have.
+EASY: Find $TEEN and learn what city they are from and how it's different from your city.
+EASY: Find out $TEEN's dream job.
 EASY: Find out a fun fact about $TEEN.
+EASY: Find out if $TEEN has any siblings.
+EASY: Find out what $TEEN's favorite snack is.
+EASY: Find out what pet $TEEN would love to have.
+EASY: Give a genuine compliment about $TEEN's outfit.
+EASY: Give a high-five to three different participants, including $TEEN.
 EASY: Have 30 people sign the back of your booklet
+EASY: High-five $TEEN and find out their favorite color.
+EASY: High-five ten different people.
+EASY: Introduce yourself to $TEEN and learn their favorite color.
+EASY: Introduce yourself to someone who is sitting alone.
+EASY: Laugh about the most embarrassing thing you're willing to share with $TEEN.
+EASY: Play a quick game of rock-paper-scissors with $TEEN.
+EASY: Request a book suggestion from $TEEN and give them one in return.
+EASY: Take a group selfie with at least five other participants.
+EASY: Take a silly selfie with $TEEN.
+EASY: Teach $TEEN a simple hand-clap game.
+EASY: Teach $TEEN how to say a phrase in a language you speak.
+EASY: Walk up to a participant you haven't met and introduce yourself.
 EASY: What does $TEEN eat for breakfast?
 EASY: What is $TEEN eye colour?
 EASY: What is $TEEN shoe size?
 EASY: What is $TEEN's favourite subject at school?
-EASY: What is $TEEN-'s favorite colour?
-EASY: What is $TEEN-'s favourite movie?
-EASY: What is $TEEN-'s middle name?
-EASY: Where did $TEEN grow up?
-EASY: Where does $TEEN live?
 EASY: find 3 people that have the same hobby/passion
 EASY: sign the booklet of 30 other people
-EASY: what is $TEEN allergic to?
-EASY: what is $TEEN-'s full name and what do their names mean? Why where they named this name?
-EASY: What town is $TEEN from?
+HARD: Ask $TEEN to sit at the same table for breakfast/lunch with you.
+HARD: Bring $TEEN to bring somebody else a glass of water!
+HARD: Collaborate with $TEEN on writing a story and share it with the group.
+HARD: Convince 2 people that you didn't know before LTC to go shopping with you in the village.
+HARD: Convince somebody to do 10 push-ups.
+HARD: Craft an impromptu team cheer with $TEEN and perform it together.
+HARD: Craft and share a challenging goal with $TEEN and ask for accountability.
+HARD: Create a complex secret code with $TEEN and write messages to each other.
+HARD: Create and perform a puppet show with $TEEN using handmade puppets.
+HARD: Design an app concept with $TEEN to solve a common teen problem.
+HARD: Develop a new language with $TEEN and teach it to others.
+HARD: Discuss with $TEEN how technology impacts your life.
+HARD: Discuss with $TEEN ways to overcome a bad habit.
+HARD: Explain a complex topic you're interested in to $TEEN and learn about something they are passionate about.
+HARD: Find 3 people who don‘t like ice cream.
+HARD: Find 4 people you don’t know yet to take a picture with.
+HARD: Find all the people that can speak Arabic and ask them to teach you a word in Arabic.
+HARD: Find our how $TEEN imitates a rabbit, a horse and a fox.
+HARD: Find someone who can teach you to solve a Rubik's cube or another puzzle.
+HARD: Find someone with a different denomination and discuss the similarities and differences in your practices.
+HARD: Get $TEEN to sing their favorite song to you.
+HARD: Get $TEEN to tell you a joke.
+HARD: Give $TEEN a flower.
+HARD: Have a scripture duel with a participant to see who can recite more Bible verses from memory.
+HARD: Have an in-depth conversation with $TEEN about the best piece of advice they've ever received.
+HARD: Invent and exchange unique greetings/messages with $TEEN that only the two of you will understand.
+HARD: Investigate and present the history of a common object with $TEEN.
+HARD: Lead a group in a simple workout or stretch routine.
+HARD: Learn a new craft technique from $TEEN.
+HARD: Learn a new sport or physical activity from $TEEN.
+HARD: Lose a board game against $TEEN.
+HARD: Make $TEEN buy you a coffee.
+HARD: Make $TEEN play table tennis with you.
+HARD: Make $TEEN style your hair.
+HARD: Make 4 people tell you that your shoelaces are untied.
+HARD: Make an LTC promotion video with people from at least 3 nations.
+HARD: Plan and execute a 'flash mob' dance with $TEEN and others.
+HARD: Play a board game with $TEEN.
+HARD: Play billiard with $TEEN.
+HARD: Read a short story to $TEEN.
+HARD: Recount the plot of your favorite book or movie to $TEEN and have them guess what it is without saying its name.
+HARD: Research with $TEEN a topic neither of you knows much about.
+HARD: Role-play a historical figure with $TEEN and educate others.
+HARD: Share and analyze a dream you've had with $TEEN.
+HARD: Swap your jacket with $TEEN.
+HARD: Teach someone who doesn't speak your mother language how to say "Jesus died for you on the cross" in your Mother language.
+HARD: With $TEEN, come up with funny nicknames for each other based on your hobbies. Stick to a nickname for the rest of the day.
+HARD: Write a collaborative poem with $TEEN that contains metaphors.
+HARD: Write and perform a song with $TEEN about LTC.
+MEDIUM: Ask $TEEN to co-author a short, ten-sentence story with you.
+MEDIUM: Ask $TEEN to share a life lesson they've learned recently.
+MEDIUM: Clean $TEEN's shoes.
+MEDIUM: Compliment $TEEN on something you genuinely like about them.
+MEDIUM: Conduct a mock interview with $TEEN as if they're a celebrity.
+MEDIUM: Create a fitness challenge with $TEEN and try it out.
+MEDIUM: Create a new product with $TEEN and pitch it to a group.
+MEDIUM: Create a secret handshake with $TEEN.
+MEDIUM: Create a secret handshake with $TEEN.
+MEDIUM: Create a short story with a group where each person adds a sentence.
+MEDIUM: Create a two-person play with $TEEN to perform for others.
+MEDIUM: Create a unique greeting with $TEEN that you'll use throughout the conference.
+MEDIUM: Create an original poem, song, or rap with $TEEN.
+MEDIUM: Design a board game with $TEEN.
 MEDIUM: Does $TEEN sing in the shower?
-MEDIUM: Find out how many tattoos $TEEN has.
-MEDIUM: Find out if someone at LTC shares your Name
-MEDIUM: Find out what the last dream that $TEEN remembers was about
+MEDIUM: Draw a portrait of each other with $TEEN.
+MEDIUM: Exchange a funny childhood story with $TEEN.
+MEDIUM: Exchange thoughts with $TEEN on the best ways to study.
+MEDIUM: Find $TEEN and plan a fictional vacation trip together.
+MEDIUM: Find 3 people who like camping. Get a camping tip from each of them.
+MEDIUM: Find 5 people with pets - What are they and what are they called?
+MEDIUM: Find a participant who has been on a mission trip and listen to their story.
+MEDIUM: Find a person with a completely different music taste and listen to three of their favorite songs together.
+MEDIUM: Find out how many kids $TEEN wants to have.
+MEDIUM: Find out the what are the names $TEEN's siblings are.
 MEDIUM: Find out what $TEEN was afraid of as a child
+MEDIUM: Find out what $TEEN's favorite fictional character is and why.
+MEDIUM: Find out what makes $TEEN smile.
+MEDIUM: Find out what the last dream that $TEEN remembers was about
+MEDIUM: Find out what was $TEEN's worst holiday was.
+MEDIUM: Find out what was the nicest compliment $TEEN got?
 MEDIUM: Find out who and what $TEEN would ask if they could have one question for one historical person.
+MEDIUM: Find someone who has the same favorite biblical character as you and discuss why you both like them.
+MEDIUM: Find someone who has the same favorite movie as $TEEN.
+MEDIUM: Find someone who plays an instrument and ask them to teach you a basic note or beat.
+MEDIUM: Find someone who practices a sport you’re unfamiliar with and learn the basics from them.
+MEDIUM: Find three things you and $TEEN have in common within five minutes.
+MEDIUM: Form a group of five and come up with a team name based on common interests.
 MEDIUM: Get $TEEN to tell you that you've got grass stuck in your hair
-MEDIUM: Get $TEEN to tell you that you‘ve got grass stuck in your hair
-MEDIUM: Have a conversation with $TEEN- about coffee while drinking coffee with them
-MEDIUM: How many kids $TEEN wants to have
-MEDIUM: Invite $TEEN for ice cream/candy
-MEDIUM: Make $TEEN sing you a song
-MEDIUM: Take a photo with 4 people in the big frame in the main hall
-MEDIUM: Tell $TEEN- about your last meeting with your grandparents.
-MEDIUM: What are the Names of $TEEN Siblings?
+MEDIUM: Give a compliment to three participants about their smiles.
+MEDIUM: Give a genuine compliment to three people.
+MEDIUM: Guess $TEEN's favorite musical artist or band. They can only answer with Yes or No.
+MEDIUM: Have a conversation with $TEEN about coffee while drinking coffee with them
+MEDIUM: Have an arm wrestling match with $TEEN.
+MEDIUM: Help $TEEN complete one of their challenges.
+MEDIUM: Invent a new holiday with $TEEN and explain how it's celebrated.
+MEDIUM: Investigate a 'mystery' within the conference with $TEEN (e.g., who has traveled the farthest to get here?).
+MEDIUM: Invite $TEEN for ice cream/candy.
+MEDIUM: Learn the meaning of one person's name and share a person from the Bible who has a similar trait.
+MEDIUM: Link arms with someone to walk to the next activity.
+MEDIUM: Lose a table tennis match against 4 different people.
+MEDIUM: Make $TEEN sing you a song.
+MEDIUM: Make a time capsule list with $TEEN to open in ten years.
+MEDIUM: Offer to swap a small item you own with $TEEN.
+MEDIUM: Organize a group to clean up somewhere at LaHoe for ten minutes.
+MEDIUM: Organize an impromptu talent show with at least five acts.
+MEDIUM: Paint or sketch each other's dream house with $TEEN.
+MEDIUM: Partner up with someone you haven’t spoken to and prepare a two-minute presentation about a random topic.
+MEDIUM: Partner with someone and pray together for a common concern.
+MEDIUM: Pick a complex topic and explain it to each other with $TEEN.
+MEDIUM: Plan a balanced meal together with $TEEN.
+MEDIUM: Plan an imaginary trip to an exotic location with $TEEN and detail what you would do there.
+MEDIUM: Recount a historical event to $TEEN and have them do the same.
+MEDIUM: Share your bucket list with $TEEN and discuss.
+MEDIUM: Share your favorite snack with $TEEN.
+MEDIUM: Show $TEEN a magic trick, even a simple one.
+MEDIUM: Swap shoes with someone for an hour.
+MEDIUM: Take a group selfie with $TEEN and two others.
+MEDIUM: Take a photo with 4 people in the big frame in the main hall.
+MEDIUM: Teach $TEEN a quick handshake or dance move you like.
+MEDIUM: Teach $TEEN a skill or craft you are good at.
+MEDIUM: Teach $TEEN about an area of expertise you have.
+MEDIUM: Teach $TEEN three words in a language you speak that they don't know.
+MEDIUM: Tell someone you don't know yet your Jesus story and find out theirs.
+MEDIUM: Volunteer with another participant for an activity or chore that helps the LTC run smoothly.
 MEDIUM: What is $TEEN-'s biggest dream?
-MEDIUM: What makes $TEEN- smile
-MEDIUM: What was $TEEN-'s worst Holiday?
-MEDIUM: When was $TEEN last time at the Hairdresser?
-MEDIUM: clean $TEENs shoes
-MEDIUM: find 3 people who like camping
-MEDIUM: find 5 people with pets - What are they and what are they called?
-MEDIUM: lose a table tennis match against 4 different people
-MEDIUM: sit with $TEEN for a coffee
-MEDIUM: swap shoes with someone for an hour
-MEDIUM: tell someone you don't know yet your Jesus story and find out theirs
-MEDIUM: test your strength arm wrestling against $TEEN-
-MEDIUM: what was the nicest compliment $TEEN got?
-HARD: Bring $TEEN- to bring to somebody else a glas of water!
-HARD: Convince 2 people that you didn't know before LTC to go shopping with you in the village
-HARD: Convince somebody to do 10 push-ups
-HARD: Find 3 people who don‘t like ice cream
-HARD: Find our how $TEEN- imitates a rabbit a horse and a dog
-HARD: Get $TEEN$TEEN to tell you a joke
-HARD: Get $TEEN to follow you on Instagram
-HARD: Get $TEEN to tell you a story
-HARD: Give $TEEN a flower
-HARD: Give $TEEN a flower
-HARD: Lose a board game against $TEEN
-HARD: Make $TEEN buy you a coffee
-HARD: Make $TEEN play with you Table Tennis
-HARD: Make $TEEN style your hair
-HARD: Make 4 people tell you that your shoelaces are untied
-HARD: Play Billiard with $TEEN
-HARD: Switch your Jacket with $TEEN
-HARD: Teach a German how to say לצחצח or an Israeli how to say Eichhörnchen
-HARD: Teach someone who doesnt speak your mother language how to say "Jesus died for you on the cross" in your Mother language
-HARD: ask — to sit at the same table for breakfast/lunch with you
-HARD: find 4 people you don’t know yet to take a picture with
-HARD: find all the people that can speak Arabic and ask them to teach you a word in Arabic.
-HARD: get $TEEN to sing their favorite song to you
-HARD: learn a worship song in a language you don't know
-HARD: make an LTC promotion video with people from at least 3 nations
-HARD: play a cardboard game with $TEEN
-HARD: read a short story to $TEEN
-VERY_HARD: Bring $TEEN- to write Genesis 1:1 in other (not your native) language
-VERY_HARD: Get $TEEN- to be your Rallye sponsor
-VERY_HARD: Get $TEEN to change the lock screen picture of their phone
-VERY_HARD: Get $TEEN to dress in a different style tomorrow
-VERY_HARD: Make $TEEN draw a picture of you
-VERY_HARD: Make $TEEN understand how the doppler effect works
-VERY_HARD: Teach $TEEN how to dance waltz
-VERY_HARD: Tell $TEEN$TEEN to do 10 push-ups while counting to 10 not in their native language (Germans hebrew Israeli's German)
-VERY_HARD: get — to tell a joke on the radio
-VERY_HARD: get $TEEN to give you their dessert
-VERY_HARD: sing a song with someone praising the food after dinner (but before prayer)
-VERY_HARD: swap shoes with $TEEN- for an hour
+MEDIUM: With $TEEN, come up with a list of books everyone should read.
+MEDIUM: With $TEEN, form a band name and the title of your first song.
+MEDIUM: With $TEEN, list all the countries you both can name in two minutes.
+MEDIUM: Write a letter to your future self with encouragement and hopes with $TEEN.
+VERY_HARD: Choreograph and perform a complex dance routine with $TEEN.
+VERY_HARD: Compose a piece of music with $TEEN and perform it.
+VERY_HARD: Create a collaborative art project that needs input from at least ten different participants to complete.
+VERY_HARD: Develop a joint 'business idea' with $TEEN and pitch it to another participant.
+VERY_HARD: Get $TEEN to be your Rallye sponsor.
+VERY_HARD: Get $TEEN to change the lock screen picture of their phone.
+VERY_HARD: Get $TEEN to dress in a different style tomorrow.
+VERY_HARD: Get $TEEN to give you their dessert.
+VERY_HARD: Get $TEEN to tell a joke on the radio.
+VERY_HARD: Perform an impromptu skit with $TEEN about life as a teenager.
+VERY_HARD: Plan and rehearse a play with $TEEN that addresses a historical event.
+VERY_HARD: Sing a song with someone praising the food after dinner (but before prayer).
+VERY_HARD: Teach $TEEN how to dance waltz.
+VERY_HARD: Tell $TEEN to do 10 push-ups while counting to 10 not in their native language.
+VERY_HARD: With $TEEN, list your top five priorities for the next ten years and compare notes.
+VERY_HARD: Work with $TEEN to construct a three-legged race and compete with others.
+VERY_HARD: Write and direct a short film with $TEEN on an issue you both care about.
