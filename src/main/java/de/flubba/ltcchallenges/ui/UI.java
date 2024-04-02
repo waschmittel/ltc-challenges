@@ -1,16 +1,12 @@
 package de.flubba.ltcchallenges.ui;
 
-import de.flubba.ltcchallenges.challengeprint.ChallengePrinter;
 import de.flubba.ltcchallenges.challengeprint.Difficulty;
+import de.flubba.ltcchallenges.challengeprint.RandomChallengePrinter;
 import de.flubba.ltcchallenges.util.OsType;
 
-import javax.swing.JButton;
-import javax.swing.JFrame;
-import javax.swing.JMenuBar;
+import javax.swing.*;
 import javax.swing.border.LineBorder;
-import java.awt.Color;
-import java.awt.Font;
-import java.awt.GridLayout;
+import java.awt.*;
 
 import static de.flubba.ltcchallenges.util.OsType.MacOS;
 
@@ -46,19 +42,19 @@ public final class UI {
         pane.add(makeButton("easy",
                 new Color(50, 255, 50),
                 new Color(100, 200, 100),
-                () -> ChallengePrinter.printChallenge(Difficulty.EASY)));
+                () -> RandomChallengePrinter.printChallenge(Difficulty.EASY)));
         pane.add(makeButton("medium",
                 new Color(255, 255, 50),
                 new Color(200, 200, 100),
-                () -> ChallengePrinter.printChallenge(Difficulty.MEDIUM)));
+                () -> RandomChallengePrinter.printChallenge(Difficulty.MEDIUM)));
         pane.add(makeButton("hard",
                 new Color(255, 100, 0),
                 new Color(200, 80, 50),
-                () -> ChallengePrinter.printChallenge(Difficulty.HARD)));
+                () -> RandomChallengePrinter.printChallenge(Difficulty.HARD)));
         pane.add(makeButton("very hard",
                 new Color(255, 0, 0),
                 new Color(200, 50, 50),
-                () -> ChallengePrinter.printChallenge(Difficulty.VERY_HARD)));
+                () -> RandomChallengePrinter.printChallenge(Difficulty.VERY_HARD)));
     }
 
     private static JButton makeButton(String text, Color fg, Color bg, Runnable callback) {
@@ -72,8 +68,13 @@ public final class UI {
     }
 
     private static void display(JFrame frame) {
-        frame.setSize(frame.getMaximumSize());
+        GraphicsEnvironment graphics = GraphicsEnvironment.getLocalGraphicsEnvironment();
+        GraphicsDevice device = graphics.getDefaultScreenDevice();
+
         frame.setLocationByPlatform(true);
         frame.setVisible(true);
+
+        frame.setResizable(false);
+        device.setFullScreenWindow(frame);
     }
 }
