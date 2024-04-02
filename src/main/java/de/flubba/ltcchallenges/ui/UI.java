@@ -74,13 +74,13 @@ public final class UI {
     }
 
     private static void display(JFrame frame) {
-        GraphicsEnvironment graphics = GraphicsEnvironment.getLocalGraphicsEnvironment();
-        GraphicsDevice device = graphics.getDefaultScreenDevice();
-
         frame.setLocationByPlatform(true);
         frame.setVisible(true);
 
         frame.setResizable(false);
+
+        GraphicsEnvironment graphics = GraphicsEnvironment.getLocalGraphicsEnvironment();
+        GraphicsDevice device = graphics.getDefaultScreenDevice();
         device.setFullScreenWindow(frame);
     }
 }
