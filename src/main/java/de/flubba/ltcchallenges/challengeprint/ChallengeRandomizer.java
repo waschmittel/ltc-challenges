@@ -21,6 +21,7 @@ import static java.util.stream.Collectors.mapping;
 import static java.util.stream.Collectors.toList;
 
 @Slf4j
+// TODO: this does not yet work when deployed due to accessing resources via Files.
 public final class ChallengeRandomizer {
     private ChallengeRandomizer() {}
 
@@ -66,6 +67,7 @@ public final class ChallengeRandomizer {
             var resource = ChallengeRandomizer.class.getClassLoader().getResource(fileName);
             Objects.requireNonNull(resource, "cannot load " + fileName);
             var uri = resource.toURI();
+            log.info("reading {}", uri);
             return Files.readAllLines(new File(uri).toPath());
         } catch (IOException | URISyntaxException e) {
             throw new RuntimeException(e);
