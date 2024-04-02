@@ -4,9 +4,15 @@ import de.flubba.ltcchallenges.challengeprint.Difficulty;
 import de.flubba.ltcchallenges.challengeprint.RandomChallengePrinter;
 import de.flubba.ltcchallenges.util.OsType;
 
-import javax.swing.*;
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JMenuBar;
 import javax.swing.border.LineBorder;
-import java.awt.*;
+import java.awt.Color;
+import java.awt.Font;
+import java.awt.GraphicsDevice;
+import java.awt.GraphicsEnvironment;
+import java.awt.GridLayout;
 
 import static de.flubba.ltcchallenges.util.OsType.MacOS;
 

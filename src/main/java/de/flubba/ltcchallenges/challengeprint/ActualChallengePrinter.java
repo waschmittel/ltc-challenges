@@ -23,7 +23,9 @@ import java.util.Arrays;
 import java.util.LinkedList;
 
 @Slf4j
-public class ActualChallengePrinter {
+public final class ActualChallengePrinter {
+    private ActualChallengePrinter() {}
+
     private static final int LINE_WIDTH = 48;
 
     public static void print(Difficulty difficulty, String task, int cursor) {
@@ -44,7 +46,6 @@ public class ActualChallengePrinter {
                         .setJustification(EscPosConst.Justification.Center);
                 var difficultyStyle = new Style().setFontSize(Style.FontSize._2, Style.FontSize._1)
                         .setJustification(EscPosConst.Justification.Center);
-                var metaInfo = new Style().setJustification(EscPosConst.Justification.Right);
 
                 escpos.initializePrinter(); // TODO: check if this resets the print queue
                 escpos.writeLF(header, "LTC challenge");
@@ -56,7 +57,10 @@ public class ActualChallengePrinter {
                 escpos.writeLF("mastered by:");
                 escpos.feed(5);
                 escpos.writeLF("_".repeat(LINE_WIDTH));
+
+                var metaInfo = new Style().setJustification(EscPosConst.Justification.Right);
                 escpos.writeLF(metaInfo, "%s #%s - %s".formatted(difficulty.title, cursor, LocalDateTime.now().format(FORMATTER)));
+
                 escpos.feed(3);
                 escpos.cut(EscPos.CutMode.FULL);
             }

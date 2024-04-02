@@ -5,7 +5,9 @@ import de.flubba.ltcchallenges.challengeprint.ChallengeRandomizer;
 import de.flubba.ltcchallenges.ui.UI;
 import de.flubba.ltcchallenges.util.OsType;
 
-import javax.swing.*;
+import javax.swing.SwingUtilities;
+import javax.swing.UIManager;
+import javax.swing.UnsupportedLookAndFeelException;
 
 import static de.flubba.ltcchallenges.util.OsType.MacOS;
 

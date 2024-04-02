@@ -20,12 +20,12 @@ public enum Cursor {
         Objects.requireNonNull(resource, "cannot load tasks.txt");
     }
 
-    public static int getAndIncrement(Difficulty difficulty) {
-        return getAndIncrement(difficulty.name());
-    }
-
     public static int getAndIncrementTeen() {
         return getAndIncrement("TEEN");
+    }
+
+    public static int getAndIncrement(Difficulty difficulty) {
+        return getAndIncrement(difficulty.name());
     }
 
     private static int getAndIncrement(String suffix) {
