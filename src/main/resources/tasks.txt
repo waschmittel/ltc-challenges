@@ -7,10 +7,10 @@ EASY: Ask $TEEN what they would do with a million dollars.
 EASY: Compliment someone’s outfit and find out where they like to shop.
 EASY: Discuss with $TEEN what superpower they’d like to have.
 EASY: Find $TEEN and learn what city they are from and how it's different from your city.
-EASY: Find out $TEEN's dream job.
+EASY: Find out the dream job of $TEEN.
 EASY: Find out a fun fact about $TEEN.
 EASY: Find out if $TEEN has any siblings.
-EASY: Find out what $TEEN's favorite snack is.
+EASY: Find out the favorite snack of $TEEN.
 EASY: Find out what pet $TEEN would love to have.
 EASY: Give a genuine compliment about $TEEN's outfit.
 EASY: Give a high-five to three different participants, including $TEEN.
@@ -28,8 +28,8 @@ EASY: Teach $TEEN a simple hand-clap game.
 EASY: Teach $TEEN how to say a phrase in a language you speak.
 EASY: Walk up to a participant you haven't met and introduce yourself.
 EASY: What does $TEEN eat for breakfast?
-EASY: What is $TEEN eye colour?
-EASY: What is $TEEN shoe size?
+EASY: What is the eye color of $TEEN?
+EASY: What is the shoe size of $TEEN?
 EASY: What is $TEEN's favourite subject at school?
 EASY: find 3 people that have the same hobby/passion
 EASY: sign the booklet of 30 other people
