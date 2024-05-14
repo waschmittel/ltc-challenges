@@ -6,3 +6,6 @@
 rebel.xml
 .DS_Store
 /ltc-challenges.*log*
+/res/icon/.*
+/src/main/resources/.*
+
